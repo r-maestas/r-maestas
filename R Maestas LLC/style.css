@@ -1,0 +1,18 @@
+.super-navbar__logo-image {
+  width: 140px !important;
+}
+
+.super-navbar__cta {
+  background-color: transparent;
+  color: #b6a999;
+}
+
+.super-content-wrapper {
+  background-color: #081f2d;
+  font-family: Muli, sans-serif;
+  color: #c8ccd0;
+}
+
+.super-content.max-width {
+  max-width: 1024px;
+}
