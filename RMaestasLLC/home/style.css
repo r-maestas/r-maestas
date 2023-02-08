@@ -1,0 +1,268 @@
+:root {
+  --section-heading-margin: 5em 0 2em;
+}
+
+.notion-header {
+  display:none;
+}
+
+.notion-callout__icon {
+  display:none;
+}
+
+.notion-quote {
+  display:none;
+}
+
+/* Hero Heading */
+#block-7aec97e62c41405b9e3bcdfe3c0fe7b9 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: .02em;
+    line-height: 1.1;
+    margin: 0;
+    text-align: center;
+}
+
+/* Hero Sub Heading */
+#block-09883d2c93ec47f0a321e701cceb3f70 {
+    color: #b6a999;
+    font-family: Ubuntu,sans-serif;
+    font-size: 14px;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Book Button */
+#block-17ba2d14413345279328bfccb2b5be6e {
+  color:#fff;
+  border: 1px solid #fff;
+  display: inline-block;
+  font-family: Ubuntu,sans-serif;
+  font-size: 14px;
+  letter-spacing: .2em;
+  padding: 12px 18px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* About R. Maestas */
+#block-01ba694db52945f8bf608a5c7cbad808 {
+  color: #b6a999;
+  font-family: Ubuntu,sans-serif;
+  font-size: 14px;
+  letter-spacing: .2em;
+  section-heading-margin;
+  margin: var(--section-heading-margin);
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* About R. Maestas After */
+#block-01ba694db52945f8bf608a5c7cbad808:After {
+    background-color: #b6a999;
+    bottom: -8px;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    width: 60px;
+}
+  
+}
+
+/* Improving the Value */
+#block-a433e261226e4b679a60cdad0fb6afdb {
+  font-family: Muli,sans-serif;
+  font-weight: 700;
+  letter-spacing: .02em;
+  color: #fff;
+}
+
+/* About Text */
+#block-0d1dc1089d9f4936807a7b59a93cc01e {
+  color: #c8ccd0 !important;
+  font-size: 14px;
+  line-height: 1.85;
+}
+
+/* R.M Process*/
+#block-06e23ae1c6d540a4bc53b0e2c3544bc8 {
+  color: #b6a999;
+  font-family: Ubuntu,sans-serif;
+  font-size: 14px;
+  letter-spacing: .2em;
+  margin: var(--section-heading-margin);
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* R.M Process After*/
+#block-06e23ae1c6d540a4bc53b0e2c3544bc8:After {
+    background-color: #b6a999;
+    bottom: -8px;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    width: 60px;  
+}
+
+/*Process Graphics*/
+.notion-image.align-start {
+  align-self: center !important;
+}
+
+/*Process Desktop Formatting */
+  @media (min-width: 680px) {
+  #block-6af0643df6ec4254abecd3d5a496ff40 {
+    width: 32% !important;
+    --column-spacing: 5px !important;
+    }
+  }
+  
+  
+  @media (min-width: 680px) {
+  #block-324e02dcfacb4dd5b4621267b387ae41 {
+    width: 32% !important;
+    --column-spacing: 5px !important;
+    }
+  }
+  
+  @media (min-width: 680px) {
+  #block-c23984bee00843a49a54fb4406f3a4b8 {
+    width: 32% !important;
+    --column-spacing: 5px !important;
+    } 
+  }
+  
+/* Evaluation & Assessment */
+#block-6af0643df6ec4254abecd3d5a496ff40 {
+  background-color: #20323f;
+  padding: 20px;
+} 
+#block-891903090edf4be09a367d280788deca {
+    font-family: Muli,sans-serif;
+    font-weight: 700;
+    letter-spacing: .02em;
+    line-height 1.25;
+    color:#fff;
+}
+#block-9df50eb51792478fa55091ab5ce2f8cc {
+  color: #c8ccd0;
+}
+
+
+/* Team Development */
+#block-324e02dcfacb4dd5b4621267b387ae41 {
+  background-color: #20323f;
+  padding: 20px;
+}
+#block-4403db2b21d24230affb051c97da1abf {
+  font-family: Muli,sans-serif;
+  font-weight: 700;
+  letter-spacing: .02em;
+  line-height 1.25;
+  color:#fff;
+}
+#block-4f62093a4c604f25b3909d642e66f933 {
+  color: #c8ccd0;
+}
+
+
+/* Sustainable Solutions */
+#block-c23984bee00843a49a54fb4406f3a4b8 {
+  background-color: #20323f;
+  padding: 20px;
+}
+#block-16beea72df194d7c8a33a520b25e2dc5 {
+  font-family: Muli,sans-serif;
+  font-weight: 700;
+  letter-spacing: .02em;
+  line-height 1.25;
+  color:#fff; 
+}
+#block-9be3821a45ae41049a6a5709f036cde1 {
+  color: #c8ccd0;
+}
+
+/*Our Mission*/
+#block-9a29f359ed3548de8814a257aa554de6 {
+  color: #b6a999;
+  font-family: Ubuntu,sans-serif;
+  font-size: 14px;
+  letter-spacing: .2em;
+  margin: var(--section-heading-margin);
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/*Our Mission After*/
+#block-9a29f359ed3548de8814a257aa554de6:After {
+    background-color: #b6a999;
+    bottom: -8px;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    width: 60px;
+}
+
+/* Mission statement */
+#block-12e7934bc2aa4ebc8429de7d7dc2f8f1 {
+  text-align: center;
+  font-family: Muli,sans-serif;
+  font-weight: 700;
+  letter-spacing: .02em;
+  color: #fff;
+  font-size: 28px;
+}
+
+/* Founder */
+#block-9264f0e66c2e43cdb08216d69175e9f7 {
+  text-align: center;
+  color: #c8ccd0;
+}
+
+/* Contact us */
+#block-b0cc05afb54441ae80b9b8339180e443 {
+  color: #b6a999;
+  font-family: Ubuntu,sans-serif;
+  font-size: 14px;
+  letter-spacing: .2em;
+  margin: var(--section-heading-margin);
+  position: relative;
+  text-align: center;
+  text-transform: uppercase; 
+}
+
+/* Contact us After*/
+#block-b0cc05afb54441ae80b9b8339180e443:After {
+    background-color: #b6a999;
+    bottom: -8px;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    width: 60px;
+}
+
+/* Contact Form */
+#block-cbd98a8fca0044678a0d42cf840dc173 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 28px;
+}
