@@ -1,0 +1,108 @@
+/* footer */
+.super-footer__footnote {
+  color: var(--primary-grey);
+  font-size: 16px;
+  opacity: 1;
+}
+
+/* upper footer */
+
+.top-footer-wrapper .top-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--primary-dark-blue);
+  color: var(--primary-white);
+  padding: 120px 80px;
+}
+
+.top-footer-wrapper .top-footer p {
+  font-family: outfit-regular;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 1.2em;
+  text-align: center;
+  padding-bottom: 32px;
+  font-weight: 400;
+  max-width: 70%;
+}
+
+.top-footer-wrapper .top-footer a {
+  background-color: var(--primary-blue);
+  padding: 12px 18px;
+  margin-top: 36px;
+  border: 2px solid var(--primary-blue);
+  font-size: 16px !important;
+  font-family: outfit-regular;
+  color: var(--primary-white);
+  text-decoration: none;
+  transition: all 0.3s ease !important;
+}
+
+.top-footer-wrapper .top-footer a:hover {
+  background: var(--primary-dark-blue) !important;
+  color: var(--primary-white);
+  transform: scale(1.1) !important;
+  transition: all 0.3s ease !important;
+  border: 2px solid var(--primary-blue) !important;
+  cursor: pointer;
+}
+
+/* empty line in footer */
+hr {
+  max-width: var(--max-content-width);
+  width: 100%;
+  margin: -2px auto;
+  height: 3px;
+  color: white;
+  overflow: hidden;
+}
+
+/* footer icons */
+
+.super-footer-wrapper {
+  background-color: var(--primary-dark-blue);
+}
+
+.super-footer.corners {
+  max-width: var(--max-content-width);
+  width: 100%;
+  padding: 0;
+  padding-top: 50px;
+  margin: 0 auto;
+}
+
+.super-footer__icons {
+  gap: 24px;
+  transition: opacity 0.3s ease;
+}
+
+.super-footer__icons svg:hover {
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+@media all and (max-width: 624px) {
+  /* footer */
+  .top-footer {
+    padding: 60px 16px !important;
+  }
+
+  .top-footer p {
+    font-size: 22px !important;
+    max-width: 90% !important;
+  }
+
+  .top-footer a {
+    font-size: 16px !important;
+    margin-top: 18px !important;
+  }
+
+  /* empty line in footer */
+  hr {
+    width: calc(100% - 32px) !important;
+    overflow: hidden !important;
+  }
+
+  /* Mobile end */
+}
