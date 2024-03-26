@@ -7,7 +7,8 @@
 
 /* upper footer */
 
-.top-footer-wrapper .top-footer {
+.top-footer-wrapper .top-footer,
+.top-footer-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,7 +17,8 @@
   padding: 120px 80px;
 }
 
-.top-footer-wrapper .top-footer p {
+.top-footer-wrapper .top-footer p,
+.top-footer-wrapper p {
   font-family: outfit-regular;
   font-weight: 400;
   font-size: 42px;
@@ -27,7 +29,8 @@
   max-width: 70%;
 }
 
-.top-footer-wrapper .top-footer a {
+.top-footer-wrapper .top-footer a,
+.top-footer-wrapper a {
   background-color: var(--primaryazure-blue);
   padding: 12px 18px;
   margin-top: 36px;
@@ -39,7 +42,8 @@
   transition: all 0.3s ease !important;
 }
 
-.top-footer-wrapper .top-footer a:hover {
+.top-footer-wrapper .top-footer a:hover,
+.top-footer-wrapper a:hover {
   background: var(--primarymidnight-blue) !important;
   color: var(--primarywhite);
   transform: scale(1.1) !important;
