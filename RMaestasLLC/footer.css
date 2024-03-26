@@ -40,6 +40,7 @@
   color: var(--primarywhite);
   text-decoration: none;
   transition: all 0.3s ease !important;
+  border-radius: 3px;
 }
 
 .top-footer-wrapper .top-footer a:hover,
@@ -50,6 +51,7 @@
   transition: all 0.3s ease !important;
   border: 2px solid var(--primaryazure-blue) !important;
   cursor: pointer;
+  border-radius: 3px;
 }
 
 /* empty line in footer */
